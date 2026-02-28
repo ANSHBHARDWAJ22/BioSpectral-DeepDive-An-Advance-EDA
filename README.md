@@ -1,4 +1,34 @@
 
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=200&section=header&text=CSIRO%20Biomass%20Analysis&fontSize=35&fontColor=ffffff&animation=fadeIn" />
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com/?lines=Advanced+Structural+EDA;Hierarchical+Target+Modeling;Leakage-Safe+Validation;Distribution-Aware+Optimization&center=true&width=600&height=45">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Task-Multi--Output%20Regression-blue">
+  <img src="https://img.shields.io/badge/Metric-Weighted%20R2-green">
+  <img src="https://img.shields.io/badge/Targets-5-orange">
+  <img src="https://img.shields.io/badge/Validation-GroupKFold-red">
+</p>
+
+---
+
+## Project Overview
+
+This repository presents an advanced exploratory data analysis and modeling strategy for the **CSIRO Biomass Challenge**.
+
+### Core Characteristics
+
+- Multi-output regression (long format)
+- Exact hierarchical target identities
+- Distribution stabilization using log transformation
+- Leakage-safe validation design
+- Competition-aligned modeling strategy
+
+---
 
 ## Problem Summary
 
