@@ -1,21 +1,4 @@
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=200&section=header&text=CSIRO%20Biomass%20Analysis&fontSize=35&fontColor=ffffff&animation=fadeIn" />
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Advanced+Structural+EDA;Hierarchical+Target+Modeling;Leakage-Safe+Validation;Distribution-Aware+Optimization&center=true&width=600&height=45">
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Task-Multi--Output%20Regression-blue">
-  <img src="https://img.shields.io/badge/Metric-Weighted%20R2-green">
-  <img src="https://img.shields.io/badge/Targets-5-orange">
-  <img src="https://img.shields.io/badge/Validation-GroupKFold-red">
-</p>
-
----
-
 <!-- Animated Gradient Header -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=180&section=header&text=CSIRO%20Biomass%20Analysis&fontSize=35&fontColor=ffffff&animation=twinkling" />
