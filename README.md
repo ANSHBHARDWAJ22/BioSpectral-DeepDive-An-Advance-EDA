@@ -16,6 +16,34 @@
 
 ---
 
+<!-- Animated Gradient Header -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=180&section=header&text=CSIRO%20Biomass%20Analysis&fontSize=35&fontColor=ffffff&animation=twinkling" />
+</p>
+
+<!-- Typing Animation -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=2500&pause=800&color=2E8B57&center=true&vCenter=true&width=700&lines=Multi-Output+Regression;Hierarchical+Target+Decomposition;Constraint-Aware+Modeling;Leakage-Safe+Validation;Weighted+R2+Optimization" />
+</p>
+
+<!-- Animated Divider -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
+</p>
+
+<!-- Dynamic Badges -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Task-Multi--Output%20Regression-1f77b4?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Metric-Weighted%20R2-2ca02c?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Targets-5-ff7f0e?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Validation-GroupKFold-d62728?style=for-the-badge" />
+</p>
+
+<!-- Animated Divider -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
+</p>
+
 ## Project Overview
 
 This repository presents an advanced exploratory data analysis and modeling strategy for the **CSIRO Biomass Challenge**.
