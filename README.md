@@ -1,16 +1,135 @@
-# BioSpectral-DeepDive-An-Advance-EDA
-<div align="center">
+<!-- ================= HEADER SECTION ================= -->
 
-# CSIRO Biomass Competition  
-### Advanced Structural EDA & Modeling Strategy
+<div style="
+    text-align:center;
+    padding:40px 20px;
+    background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    color:white;
+    border-radius:12px;
+">
 
-<p>
-Multi-Output Regression · Hierarchical Target Modeling · Leakage-Safe Validation · Distribution-Aware Optimization
+<h1 style="margin-bottom:10px;font-size:40px;">
+CSIRO Biomass Competition
+</h1>
+
+<h3 style="font-weight:300;margin-top:0;">
+Advanced Structural EDA & Hierarchical Modeling Strategy
+</h3>
+
+<p style="max-width:700px;margin:20px auto;font-size:16px;line-height:1.6;">
+Multi-Output Regression · Hierarchical Target Decomposition ·  
+Leakage-Safe Validation · Distribution-Aware Optimization
 </p>
 
 </div>
 
----
+<br/>
+
+<!-- ================= HIGHLIGHT CARDS ================= -->
+
+<div style="display:flex;flex-wrap:wrap;justify-content:center;gap:20px;">
+
+<div style="
+    width:260px;
+    padding:20px;
+    background:#f4f6f8;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+">
+<h3>Problem Type</h3>
+<p>Multi-Output Regression (Long Format)</p>
+</div>
+
+<div style="
+    width:260px;
+    padding:20px;
+    background:#f4f6f8;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+">
+<h3>Metric</h3>
+<p>Globally Weighted R²</p>
+</div>
+
+<div style="
+    width:260px;
+    padding:20px;
+    background:#f4f6f8;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+">
+<h3>Core Insight</h3>
+<p>Dry_Total_g drives 50% of score</p>
+</div>
+
+</div>
+
+<br/>
+
+<!-- ================= STRUCTURAL MODEL ================= -->
+
+<div style="
+    background:#ffffff;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 6px 15px rgba(0,0,0,0.08);
+    max-width:900px;
+    margin:auto;
+">
+
+<h2 style="text-align:center;">Hierarchical Target Structure</h2>
+
+<pre style="
+background:#0f2027;
+color:#00ffcc;
+padding:20px;
+border-radius:8px;
+font-size:16px;
+overflow-x:auto;
+">
+Dry_Green_g + Dry_Clover_g  =  GDM_g
+GDM_g + Dry_Dead_g          =  Dry_Total_g
+</pre>
+
+<p style="text-align:center;">
+Exact structural identities verified across all 357 unique samples.
+</p>
+
+</div>
+
+<br/>
+
+<!-- ================= STRATEGY SUMMARY ================= -->
+
+<div style="
+    background:#f8f9fa;
+    padding:30px;
+    border-radius:12px;
+    max-width:900px;
+    margin:auto;
+">
+
+<h2 style="text-align:center;">Modeling Blueprint</h2>
+
+<ol style="line-height:1.8;font-size:15px;">
+<li>Use GroupKFold by sample_id to prevent leakage</li>
+<li>Predict only base targets (Green, Clover, Dead)</li>
+<li>Derive GDM and Total via structural constraints</li>
+<li>Train on log1p(target) to stabilize skew</li>
+<li>Evaluate using weighted R² on original scale</li>
+</ol>
+
+</div>
+
+<br/>
+
+<!-- ================= OPTIONAL JS (Works on GitHub Pages) ================= -->
+
+<script>
+function highlight() {
+    alert("Hierarchical modeling ensures structural consistency and score stability.");
+}
+</script>
 
 ## Problem Summary
 
